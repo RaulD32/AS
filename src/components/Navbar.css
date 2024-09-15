@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+.App-navbar {
+    background-color: #6f42c1; /* Color morado */
+    padding: 1rem;
+    color: white;
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Pegado a la parte superior */
+    left: 0; /* Pegado al borde izquierdo */
+    width: 100%; /* Ocupa todo el ancho horizontal */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+}
+
+.navbar-links li {
+    margin: 0 1rem;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
