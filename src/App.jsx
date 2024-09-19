@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import FormAlumnos from './components/formulario'
+import { useState } from 'react';
+import './App.css';
+import FormAlumnos from './components/formulario';
+import Counter from './components/countred'; 
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,11 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <header className="App-header">
-        <FormAlumnos/> 
+        <FormAlumnos />
+        <Counter /> 
       </header>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
